@@ -11,6 +11,10 @@
   direction: rtl;
 }
 
+.header-main {
+  position: relative;
+}
+
 .nav-panel {
   width: 683px;
   height: 95px;
@@ -45,6 +49,10 @@
   .nav-bar-item {
     padding: 9px 20px;
 
+    &:first-child {
+      border: 1px solid #3C3C3C;
+    }
+
     &:hover {
       cursor: pointer;
     }
@@ -56,6 +64,8 @@
 }
 
 .header-intro {
+  position: relative;
+  left: -124px;
   margin-top: 210px;
   display: flex;
   flex-direction: column;

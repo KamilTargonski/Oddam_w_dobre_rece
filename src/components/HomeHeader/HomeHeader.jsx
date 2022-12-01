@@ -4,7 +4,7 @@ import {HomeHeaderIntro} from "./HomeHeaderIntro";
 
 export function HomeHeader() {
     return (
-        <section className="header-section">
+        <section className="header-section" id='section1'>
             <div className="header-aside">
                 <HomeHeaderHeroImage />
             </div>
