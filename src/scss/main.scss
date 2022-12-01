@@ -1,7 +1,15 @@
 @import "reset";
 @import "settings/fonts";
 @import "settings/colors";
+@import "home-header";
 
 body {
   font-family: $font-base;
+  background-color: #61dafb;
+}
+
+.home {
+  width: 1900px;
+  margin: 0 auto;
+  background-color: #fff;
 }

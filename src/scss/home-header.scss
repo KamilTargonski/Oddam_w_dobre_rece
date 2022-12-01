@@ -1,0 +1,93 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 142px;
+  position: relative;
+}
+
+.header-aside{
+  width: 50%;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.nav-panel {
+  width: 683px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.user-panel {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+
+  .user-panel-item {
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    padding: 9px 10px;
+
+    &:nth-child(2) {
+      border: 1px solid #FAD648;
+    }
+  }
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+
+  .nav-bar-item {
+    padding: 9px 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      border: 1px solid #3C3C3C;
+    }
+  }
+}
+
+.header-intro {
+  margin-top: 210px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+  .header-text {
+    color: #3C3C3C;
+    font-size: 38px;
+    text-align: center;
+    line-height: 55px;
+
+  }
+}
+
+.header-buttons {
+  margin-top: 65px;
+  display: flex;
+  gap: 44px;
+
+  .header-button {
+    justify-content: center;
+    text-align: center;
+    width: 310px;
+    background-color: #00000000;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3C3C3C;
+    border: 0.75px solid #3C3C3C;
+    padding: 13px 0;
+  }
+}
