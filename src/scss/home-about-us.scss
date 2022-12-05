@@ -1,0 +1,58 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 950px;
+
+  .about-us-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 50%;
+    background-color: #F0F1F1;
+
+    .about-us-title {
+      text-align: center;
+      font: normal 38px/55px Open Sans;
+      letter-spacing: -0.76px;
+      color: #3c3c3c;
+      opacity: 1;
+    }
+
+    .deco-img {
+      opacity: 1;
+    }
+    .about-us-text {
+      width: 60%;
+      text-align: center;
+      font: normal 30px/54px Open Sans;
+      letter-spacing: -0.6px;
+      color: #3c3c3c;
+      opacity: 1;
+    }
+
+    .about-us-signature {
+      position: relative;
+
+      img {
+        position: relative;
+        left: 200px;
+      }
+    }
+  }
+
+  .about-us-img {
+    width: 50%;
+    position: relative;
+  }
+  .about-us-img::before {
+    content: '';
+    background-image: url("../assets/People.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
