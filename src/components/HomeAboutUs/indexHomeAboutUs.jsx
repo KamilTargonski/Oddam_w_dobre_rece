@@ -3,7 +3,7 @@ import signature from "../../assets/Signature.svg";
 
 export function IndexHomeAboutUs() {
     return (
-            <div className='about-us-container' id='section3'>
+            <section className='about-us-container' id='section3'>
 
                 <div className='about-us-info'>
                     <div className='about-us-title'>
@@ -21,6 +21,6 @@ export function IndexHomeAboutUs() {
                 </div>
 
                 <span className='about-us-img'></span>
-            </div>
+            </section>
     )
 }

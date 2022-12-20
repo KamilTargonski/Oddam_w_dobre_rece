@@ -6,10 +6,13 @@
 @import "home-4-steps";
 @import "home-about-us";
 @import "home-who-we-help";
+@import "home-contact";
+@import "footer";
+@import "login-and-register";
 
 body {
   font-family: $font-base;
-  background-color: #61dafb;
+  background-color: #fff;
 }
 
 .home {

@@ -1,0 +1,144 @@
+.top-page {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+
+  div {
+    margin-right: 140px;
+  }
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 123px auto 0;
+  flex-direction: column;
+
+  h2 {
+    color: #3C3C3C;
+    font: normal normal normal 40px/55px Open Sans;
+    letter-spacing: -0.8px;
+    margin-bottom: 25px;
+  }
+
+  .input-wrapper {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: #F0F1F1;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 9px;
+
+
+    .form-input {
+      width: 250px;
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      margin-bottom: 31px;
+
+      label {
+        text-transform: capitalize;
+        font: normal normal 600 16px "Open Sans";
+        color: #3C3C3C;
+        margin-bottom: 12px;
+      }
+
+      input {
+        background: #F0F1F1 0 0 no-repeat padding-box;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid grey;
+        font: normal normal normal 18px/15px 'Open Sans';
+        border-bottom: 1px solid grey;
+      }
+    }
+  }
+
+  .login-buttons {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+    .register-button, .login-button {
+      padding: 13px 15px;
+      background-color: #fff;
+      border: none;
+      font: normal normal 300 18px/32px Open Sans;
+
+      .link {
+        padding: 13px 15px;
+      }
+
+      :hover {
+        border: 1px solid grey;
+      }
+
+      :first-child {
+        text-decoration: none;
+      }
+    }
+    .active {
+      border: 1px solid grey;
+    }
+  }
+}
+
+.login-navbar {
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      position: relative;
+
+      :hover {
+        border: 1px solid #3C3C3C;
+      }
+
+      a {
+        box-sizing: border-box;
+        padding: 9px 20px;
+        text-decoration: none;
+        color: #3C3C3C;
+
+      }
+    }
+  }
+}
+
+.logout-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 123px auto 0;
+  flex-direction: column;
+
+  h2 {
+    text-align: center;
+    color: #3C3C3C;
+    font: normal normal normal 40px/55px Open Sans;
+    letter-spacing: -0.8px;
+    margin-bottom: 25px;
+  }
+}
+
+.logout-button {
+  margin-top: 35px;
+  padding: 13px 15px;
+  background-color: #fff;
+  border: 1px solid grey;
+  font: normal normal 300 18px/32px Open Sans;
+
+  .link {
+    text-decoration: none;
+  }
+}
+

@@ -1,7 +1,7 @@
 .header-section {
   display: flex;
   justify-content: space-between;
-  margin-right: 142px;
+  margin-right: 140px;
   position: relative;
 }
 
@@ -35,7 +35,7 @@
     font-size: 14px;
     padding: 9px 10px;
 
-    &:nth-child(2) {
+    &:last-child {
       border: 1px solid #FAD648;
     }
   }
@@ -43,7 +43,6 @@
 
 .navbar {
   display: flex;
-  list-style: none;
   justify-content: space-between;
 
   .nav-bar-item {
