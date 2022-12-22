@@ -142,3 +142,19 @@
   }
 }
 
+.dupa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 40px/55px Open Sans;
+  color: green;
+}
+
+.error {
+  position: relative;
+
+  text-align: left;
+  font: normal normal 600 12px "Open Sans";
+  color: red;
+}
+

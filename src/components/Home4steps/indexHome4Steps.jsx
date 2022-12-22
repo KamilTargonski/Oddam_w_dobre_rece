@@ -8,10 +8,10 @@ import icon4 from "../../assets/Icon-4.svg";
 export function IndexHome4Steps() {
     return (
         <section className='four-steps' id="section2">
-            <article className='four-steps-article'>
+            <div className='four-steps-header'>
                 <h2 id='steps'>Wystarczą 4 proste kroki</h2>
                 <img className="deco" src={decoration} alt='decoration-line' />
-            </article>
+            </div>
             <div className="container-four-steps">
                 <div className='container-icon'>
                     <img src={icon1} alt='icon-select-thinks' />

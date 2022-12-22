@@ -1,0 +1,107 @@
+.who {
+  display: flex;
+  flex-direction: column;
+
+  .who-title {
+    display: flex;
+    padding: 55px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 38px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .who-header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+
+    button {
+      border: none;
+      color: #3C3C3C;
+      font: normal normal normal 24px/24px Open Sans;
+      padding: 11px 19px;
+      background-color: inherit;
+    }
+  }
+
+  .who-text-info {
+    margin: 80px 278px;
+
+    .who-info {
+      width: 640px;
+      text-align: center;
+      font: normal normal normal 22px/30px Open Sans;
+      letter-spacing: 0;
+      color: #3C3C3C;
+      margin: 66px auto;
+      margin-top: 0;
+    }
+
+    .who-list {
+      display: flex;
+      flex-direction: column;
+      gap: 34px;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 31px;
+
+        &:first-child, &:nth-child(2) {
+          border-bottom: 0.75px solid #3C3C3C;
+        }
+      }
+
+      .main-info {
+        h3 {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          font: normal normal 300 26px/31px Merriweather;
+          color: #3c3c3c;
+          padding-bottom: 6px;
+        }
+        p {
+          text-align: left;
+          font: normal normal 300 18px/22px Merriweather;
+          color: #3c3c3c;
+        }
+      }
+
+      .aside-info {
+        text-align: left;
+        font: normal normal 300 18px/22px Merriweather;
+        color: #3C3C3C;
+        padding-right: 13px;
+      }
+
+
+    }
+
+    .pagination-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      button {
+        background-color: inherit;
+        border: none;
+        font: normal normal normal 18px/24px Open Sans;
+        color: #3C3C3C;
+        padding: 13px 15px;
+      }
+    }
+  }
+}
+
+.active {
+  border: 0.75px solid #3C3C3C;
+}
